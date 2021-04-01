@@ -50,20 +50,20 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
             className="mobile-icon"
           />
           <img
-            src="https://github.com/jadjadam123/pancake-uikit/blob/master/src/widgets/Menu/berry.svg?raw=true"
+            src="https://github.com/MilkSwap/pancake-uikit/blob/master/src/widgets/Menu/milkswap_logo.svg?raw=true"
             alt="Milkswap Logo"
             className="desktop-icon"
           />
         </StyledLink>
       ) : (
-        <StyledLink to={href} aria-label="berry home page">
+        <StyledLink to={href} aria-label="Milkswap home page">
           <img
-            src="https://github.com/jadjadam123/pancake-uikit/blob/master/src/widgets/Menu/logo.svg?raw=true"
+            src="https://github.com/MilkSwap/pancake-uikit/blob/master/src/widgets/Menu/logo.svg?raw=true"
             alt="Milkswap Logo"
             className="mobile-icon"
           />
           <img
-            src="https://github.com/jadjadam123/pancake-uikit/blob/master/src/widgets/Menu/berry.svg?raw=true"
+            src="https://github.com/MilkSwap/pancake-uikit/blob/master/src/widgets/Menu/milkswap_logo.svg?raw=true"
             alt="Milkswap Logo"
             className="desktop-icon"
           />
